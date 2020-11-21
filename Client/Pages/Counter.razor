@@ -1,0 +1,25 @@
+﻿@page "/counter"
+@using BlazorApp.Shared
+@inject CounterState cnt
+
+<h1>Counter</h1>
+
+<p>Current count: @(cnt.CurrentCount)</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Increment Count</button>
+<br />
+<button class="btn btn-primary" @onclick="ResetCount">Reset Count</button>
+
+@code {
+
+
+    private void IncrementCount()
+    {
+        cnt.CurrentCount = cnt.CurrentCount + 1;
+    }
+
+    private void ResetCount()
+    {
+        cnt.CurrentCount = 0;
+    }
+}
