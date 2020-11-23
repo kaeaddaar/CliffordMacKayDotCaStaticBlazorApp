@@ -1,25 +1,19 @@
-﻿@page "/counter"
-@using BlazorApp.Shared
-@inject CounterState cnt
+﻿@page "/Counter"
 
+<link rel="stylesheet" href="/css/base.css" />
+<link rel="stylesheet" href="/css/basic-grid.css" />
 <h1>Counter</h1>
 
-<p>Current count: @(cnt.CurrentCount)</p>
+<p>Current count: @currentCount</p>
 
-<button class="btn btn-primary" @onclick="IncrementCount">Increment Count</button>
-<br />
-<button class="btn btn-primary" @onclick="ResetCount">Reset Count</button>
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
-
+    private int currentCount = 0;
 
     private void IncrementCount()
     {
-        cnt.CurrentCount = cnt.CurrentCount + 1;
-    }
-
-    private void ResetCount()
-    {
-        cnt.CurrentCount = 0;
+        currentCount++;
     }
 }
+
