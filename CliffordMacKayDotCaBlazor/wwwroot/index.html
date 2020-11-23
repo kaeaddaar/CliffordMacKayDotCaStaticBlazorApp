@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+
+<script language="Javascript">
+    function ShowHoverContent(key1) {
+        //alert(document.getElementById("logo").innerHTML + "<img src=\"\/Images\/LOGO Square Black and White.png\" \/> ");
+        switch (key1) {
+            case "cmArt Solutions":
+                //document.getElementById("HoverContentPart1").innerHTML = document.getElementById("logo").innerHTML;
+                document.getElementById("HoverContentPart1").innerHTML =
+                    "<img src=\"\/Images\/LOGO Square Black and White.png\" \/> ";
+                document.getElementById("HoverContentPart2").innerHTML =
+                    "Programming, Technical Services, Business Process Automation &amp; Training, and MORE!";
+                break;
+            case "Windward Software":
+                document.getElementById("HoverContentPart1").innerHTML =
+                    "<img height=\"147\" width=\"350\" src=\"/Images/logo-windward-software.png\" \/>";
+                document.getElementById("HoverContentPart2").innerHTML =
+                    "System Five Expert with 15 years of experience being one of the best in the world at moving companies forward with System Five.";
+                break;
+            case "S5WebAPI":
+                document.getElementById("HoverContentPart1").innerHTML =
+                    "{ API }";
+                document.getElementById("HoverContentPart2").innerHTML =
+                    "Need an API created, or an integration with the System Five API?";
+                break;
+            case "Save":
+                document.getElementById("HoverContentPart1").innerHTML =
+                    "SAVE $$$";
+                document.getElementById("HoverContentPart2").innerHTML =
+                    "Outsourcing, Automation, and other ways to save you money.";
+                break;
+            case "ConnectWise":
+                document.getElementById("HoverContentPart1").innerHTML =
+                    "<img src=\"/Images/ConnectWiseLogo.png\" /> Assistance";
+                document.getElementById("HoverContentPart2").innerHTML =
+                    "Making getting help easy with ConnectWise.";
+                break;
+            case "LinkedIn":
+                document.getElementById("HoverContentPart1").innerHTML =
+                    "<img src=\"/Images/LI-Logo.png\" height=\"54\" width=\"221\" />";
+                document.getElementById("HoverContentPart2").innerHTML =
+                    "A great place to connect, network, and ask questions";
+                break;
+
+        }
+    }
+</script>
+<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Clifford MacKay</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="CliffordMacKayDotCaBlazor.styles.css" rel="stylesheet" />
+    <link href="manifest.json" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+</head>
+<body>
+    <div id="app">Loading...</div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js');</script>
+</body>
+
+</html>

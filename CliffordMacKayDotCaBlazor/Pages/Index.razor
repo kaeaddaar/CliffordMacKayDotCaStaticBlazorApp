@@ -1,0 +1,53 @@
+﻿@page "/"
+
+<h1>Welcome to my Homepage - Built in Blazor</h1>
+
+<p>What is blazor? ANS: Blazor is a new web framework built with .NET technologies, and it allows me to write client side code in c# (JavaScript gets kicked to the curb, YAY!)</p>
+<!--
+<link rel="stylesheet" href="/css/base.css" />
+<link rel="stylesheet" href="/css/basic-grid.css" />
+    -->
+<section class="basic-grid">
+    <a href="https://www.linkedin.com/in/clifford-mackay-05401821" target="_blank">
+        <div class="card" onmouseover='ShowHoverContent("LinkedIn")'>
+            <img src="/Images/LI-Logo.png" height="54" width="221" />
+        </div>
+    </a>
+
+    <a href="https://cmartme.screenconnect.com/" target="_blank">
+        <div class="card" onmouseover='ShowHoverContent("ConnectWise")'>
+            <img src="/Images/ConnectWiseLogo.png" /> Assistance
+        </div>
+    </a>
+
+    <a class="card" asp-area="" asp-controller="Home" asp-action="cmArtSolutions">
+        <div class="card" onmouseover='ShowHoverContent("cmArt Solutions")'>
+            <img src="/Images/LOGO Square Black and White.png" onmouseover='ShowHoverContent("cmArt Solutions")' />
+        </div>
+    </a>
+
+    <a href="https://www.windwardsoftware.com/" target="_blank">
+        <div class="card" onmouseover='ShowHoverContent("Windward Software")'>
+            <img height="147" width="350" src="/Images/logo-windward-software.png" />
+        </div>
+    </a>
+
+    <div class="card" onmouseover='ShowHoverContent("S5WebAPI")'>
+        { API }
+    </div>
+
+    <div class="card" onmouseover='ShowHoverContent("Save")'>
+        SAVE $$$
+    </div>
+
+</section>
+<p></p>
+<section class="basic-grid">
+    <div class="card" id="HoverContentPart1" style="height:240px">
+        &nbsp;
+    </div>
+    <div class="text-left" id="HoverContentPart2">
+        &nbsp;
+    </div>
+</section>
+
