@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "API\Api.csproj", "{B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{3DC4D146-5318-4FB7-B96D-91E6DFD7AEBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CliffordMacKayDotCaBlazor", "CliffordMacKayDotCaBlazor\CliffordMacKayDotCaBlazor.csproj", "{9EAC7CE2-9278-4D28-940F-7E528C38F6F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CliffordMacKayDotCaBlazor", "Client\CliffordMacKayDotCaBlazor.csproj", "{00C8AFA5-73FE-4CDB-B397-E8E79E8E4E3E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{3DC4D146-5318-4FB7-B96D-91E6DFD7AEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DC4D146-5318-4FB7-B96D-91E6DFD7AEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DC4D146-5318-4FB7-B96D-91E6DFD7AEBA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9EAC7CE2-9278-4D28-940F-7E528C38F6F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9EAC7CE2-9278-4D28-940F-7E528C38F6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9EAC7CE2-9278-4D28-940F-7E528C38F6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9EAC7CE2-9278-4D28-940F-7E528C38F6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00C8AFA5-73FE-4CDB-B397-E8E79E8E4E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00C8AFA5-73FE-4CDB-B397-E8E79E8E4E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00C8AFA5-73FE-4CDB-B397-E8E79E8E4E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00C8AFA5-73FE-4CDB-B397-E8E79E8E4E3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
